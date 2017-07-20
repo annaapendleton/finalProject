@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trippy</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <script src="https://unpkg.com/aframe-text-geometry-component@^0.5.0/dist/aframe-text-geometry-component.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+            <a-assets>
+        <img src="images/earth.jpg" id="earth2">
+        <img src="images/sydney.jpg" id="sydney">
+        <img src="images/newyork.jpg" id="newYork">
+        <img src="images/paris2.jpg" id="paris">
+        <img src="images/columbia.jpg" id="columbia">
+        <img src="images/indonesia.jpg" id="indonesia">
+        <img src="images/fiji.jpg" id="fiji">
+        <img src="images/disney.jpg" id="disney">
+        <img src="images/stars.png" id="stars">
+        <img src="images/russia2.jpg" id="russia">
+        <img src="images/japan.jpg" id="japan">
+        <img src="images/egypt.jpg" id="egypt">
+        <img src="images/hawaii2.jpg" id="hawaii">
+        <img src="images/disney.jpg" id="disney">
+        <img src="images/chicago2.jpg" id="chicago">
+        <img src="images/northernlights.jpg" id="northernlights">
+        <img src="images/fantasyland.jpg" id="fantasyland">
+        
+        <a-asset-item id="optimerBoldFont" src="https://rawgit.com/mrdoob/three.js/dev/examples/fonts/optimer_bold.typeface.json"></a-asset-item>
+    </a-assets>
+        <a-entity >
+            <a-camera>
+                <a-cursor></a-cursor>
+            </a-camera>
+        </a-entity>
+        <a-sky id="background" src="#stars"> </a-sky>
+        <!--<a-box id="backButton" text="go back" color="tomato" height="2" width="2" position="7 5 -7" onclick="goBack()">-->
+        <!--</a-box>-->
+        <a-entity id="backButton" position="7 5 -7" onclick="goBack()"  link="href:" geometry="primitive: plane; width: 3; height: 1.5" material="color: #eee" text="width: 8; color: blue; align: center; value: go back; " visible="false">
+        </a-entity>
+        <a-entity id="backHomeButton" position="-6 5 -7" link="href: index2.html"  geometry="primitive: plane; width: 3; height: 1.5" material="color: #eee" text="width: 8; color: blue; align: center; value: go back; " visible="true">
+        </a-entity>
+        <!--<a-entity text-geometry="value: What's up" ></a-entity>-->
+        <!--<a-entity text-geometry="value: Dog?; font: #optimerBoldFont" position= "-5 3 -3"></a-entity>-->
+        <a-plane color="black" position="-6.16 7.205 -6.739" scale="2 2 2" visible="true" id="plane"></a-plane>
+        
+        <a-sphere id="earth" visibility= "true" src="#earth2" position="0 1.5 -4" scale="2 2 2">
+            <a-animation attribute="rotation" to="0 360 0" dur="30000" repeat="indefinite" easing="linear"></a-animation>
+             <a-sphere id="newYork" color="red" visibility= "true" onclick="makeNewYork()" position="0.19 0.627 0.721" rotation="0 75.196 0" scale=".05 .05 .05">
+                <a-animation attribute="rotation" to="0 360 0" dur="30000" easing="linear" repeat="indefinite"></a-animation>
+             </a-sphere>
+             <a-sphere  id="sydney" color="red" visibility="true" onclick="makeSydney()" position="-0.759 -0.464 -0.433" rotation="0 75.196 0" scale="0.05 0.05 0.05">
+                <a-animation attribute="rotation" to="0 360 0" dur="30000" easing="linear" repeat="indefinite"></a-animation>
+             </a-sphere>
+           <a-sphere id="paris" color="red" visibility="true" onclick="makeParis()" position="0.593 0.758 -0.025" rotation="0 359.499 0" scale="0.08 0.08 0.08">
+                <a-animation attribute="rotation" to="0 360 0" dur="30000" easing="linear" repeat="indefinite"></a-animation>
+             </a-sphere>
+             <a-sphere id="columbia" color="red" visibility="true" onclick="makeColumbia()" position="0.693 -0.328 0.637" rotation="0 350.24996461499995 0" scale="0.05 0.05 0.05">
+                <a-animation attribute="rotation" to="0 360 0" dur="30000" easing="linear" repeat="indefinite"></a-animation>
+             </a-sphere>
+             <a-sphere id="fiji" color="red" visibility="true" onclick="makeFiji()" position="-0.925 -0.313 -0.029" rotation="0 352.914 0" scale="0.05 0.05 0.05">
+                <a-animation attribute="rotation" to="0 360 0" dur="30000" easing="linear" repeat="indefinite"></a-animation>
+             </a-sphere>
+             <a-sphere id="indonesia" color="red" visibility="true" onclick="makeIndonesia()" position="-0.377 -0.012 -0.904" rotation="0 355.482 0" scale="0.05 0.05 0.05">
+                <a-animation attribute="rotation" to="0 360 0" dur="30000" easing="linear" repeat="indefinite"></a-animation>
+             </a-sphere>
+               <a-sphere id="russia" color="red" visibility="true" onclick="makeRussia()" position="0.427 0.796 -0.38" rotation="0 357.836 0" scale="0.05 0.05 0.05">
+                <a-animation attribute="rotation" to="0 360 0" dur="30000" easing="linear" repeat="indefinite"></a-animation>
+             </a-sphere>
+             <a-sphere id="japan" color="red" visibility="true" onclick="makeJapan()" position="-0.584 0.579 -0.496" rotation="0 358.716 0" scale="0.05 0.05 0.05">
+                <a-animation attribute="rotation" to="0 360 0" dur="30000" easing="linear" repeat="indefinite"></a-animation>
+             </a-sphere>
+             <a-sphere id="egypt" color="red" visibility="true" onclick="makeEgypt()" position="0.757 0.489 -0.387" rotation="0 359.847 0" scale="0.05 0.05 0.05">
+                <a-animation attribute="rotation" to="0 360 0" dur="30000" easing="linear" repeat="indefinite"></a-animation>
+             </a-sphere>
+             <a-sphere id="hawaii" color="red" visibility="true" onclick="makeHawaii()" position="-0.837 0.334 0.356" rotation="0 359.868 0" scale="0.05 0.05 0.05">
+                <a-animation attribute="rotation" to="0 360 0" dur="30000" easing="linear" repeat="indefinite"></a-animation>
+             </a-sphere>
+             <a-sphere id="iceland" color="red" visibility="true" onclick="makeIceland()" position="0.398 0.892 0.133" rotation="0 359.978 0" scale="0.05 0.05 0.05">
+                <a-animation attribute="rotation" to="0 360 0" dur="30000" easing="linear" repeat="indefinite"></a-animation>
+             </a-sphere>
+             <a-sphere id="disney" color="red" visibility="true" onclick="makeDisney()" position="1 1 1" rotation="0 360 0" scale="0.05 0.05 0.05">
+                <a-animation attribute="rotation" to="0 360 0" dur="30000" easing="linear" repeat="indefinite"></a-animation>
+             </a-sphere>
+            </a-sphere>
+            
+            
+            <a-entity id="newYorkTitle" visible="false" position="0 6 -6.5" text="width: 40; color: white; align: center; value: New York City; "></a-entity>
+            <a-entity id="sydneyTitle" visible="false" position="0 6 -6.5" text="width: 40; color: white; align: center; value: Sydney; "></a-entity>
+            <a-entity id="parisTitle" visible="false" position="0 6 -6.5" text="width: 40; color: white; align: center; value:  Paris; "></a-entity>
+            <a-entity id="indonesiaTitle" visible="false" position="0 6.3 -6.5" text="width: 40; color: white; align: center; value: Indonesia; "></a-entity>
+            <a-entity id="columbiaTitle" visible="false" position="0 6 -6.5" text="width: 40; color: white; align: center; value: Columbia; "></a-entity>
+            <a-entity id="russiaTitle" visible="false" position="0 6 -6.5" text="width: 40; color: white; align: center; value: Russia; "></a-entity>
+            <a-entity id="japanTitle" visible="false" position="0 6 -6.5" text="width: 40; color: black; align: center; value:  Japan; "></a-entity>
+            <a-entity id="fijiTitle" visible="false" position="0 6 -6.5" text="width: 40; color: black; align: center; value:  Fiji; "></a-entity>
+            <a-entity id="trippyTitle" visible="true" position="0 6.3 -6.5" text="width: 40; color: white; align: center; value: trippy.; "></a-entity>
+            <a-entity id="hawaiiTitle" visible="false"  position="0 6 -6.5" text="width: 40; color: white; align: center; value:  Hawaii; "></a-entity>
+            <a-entity id="icelandTitle" visible="false"  position="0 6 -6.5" text="width: 40; color: white; align: center; value:  Iceland; "></a-entity>
+            <a-entity id="egyptTitle" visible="false"  position="0 6 -6.5" text="width: 40; color: white; align: center; value:  Egypt; "></a-entity>
+            <a-entity id="chicagoTitle" visible="false"  position="0 6 -6.5" text="width: 40; color: white; align: center; value:  Chicago; "></a-entity>
+            
+            <a-entity id="newYorkText" position="0 2 -4" geometry="primitive: plane; width: auto; height: auto" material="color: #eee" text="width: 6; color: blue; align: center; value: Welcome to the concrete jungle! Better known as New York City. When looking for a place to stay look no further then Hotel 50 Bowery NYC. Averaging at $215 per night it is ranked one of New York's top luxury hotels. Now if you're looking for some high class grub The Daniel is the place to be, ranked one of the top restaurants in New York City with its amazing Italian cuisine. Now don't forget to stop by a local New York pizza parlor and grab a slice before you hop on your flight back home. Things to do in New York come in abundance but these are on the top of everyone's list. Visit Central Park, tour the 911 Memorial and Museum, and visit the Metropolitan Museum of Art.; " visible="false">
+                    <a-animation attribute="position" to="0 2.2 -4" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+            </a-entity>
+            <a-entity id="sydneyText" position="0 2 -4" geometry="primitive: plane; width: auto; height: auto" material="color: #eee" text="width: 6; color: blue; align: center; value: Sydney is an amazing place to go if you want a mixture of good historical sites and contemporary Australian flavor. One of the top rated hotels in Sydney is the Ovolo Woolloomooloo. The average room costs about $180 a night. The hotel won Travelers' Choice 2017 and is rated Sydney's number one luxury hotel. Whether you are looking for a cheap eat or fine dining, Sydney has it all. The restaurant est. is rated Sydneys number one fine dining restaurant. When in Sydney be sure to visit the Sydney Harbor, walk the Bondi to Coogee beach, and tour the Sydney Opera House.; " visible="false">
+            
+            <!--<a-entity id="sydneyText" position="0 2 -4" geometry="primitive: plane, width: auto; height">-->
+            <!--    <a-text value="Sydney is an amazing place to go if you want a mixture of good historical sites and contemporary Australian flavor. One of the top rated hotels in Sydney is the Ovolo Woolloomooloo. The average room costs about $180 a night. The hotel won Travelers Choice 2017 and is rated Sydney's number one luxury hotel. Whether you are looking for a cheap eat or fine dining, Sydney has it all. The restaurant est. is rated Sydneys number one fine dining restaurant. When in Sydney be sure to visit the Sydney Harbor, walk the Bondi to Coogee beach, and tour the Sydney Opera House." id="sydneyText2"></a-text>-->
+                     <a-animation attribute="position" to="0 2.2 -4" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+            </a-entity>
+            <a-entity id="parisText" position="0 2 -4" geometry="primitive: plane; width: auto; height: auto" material="color: #eee" text="width: 6; color: blue; align: center; value: Paris is the best place to go if you are looking for a great sense of history and culture. The Maison Souquet is the best place to stay with the average room costing $320 per night. If you're looking for amazing French restaurants then try ASPIC, Epicure, or L'Abeille. Musee d'Orsay, The Eiffel Tower, and Musee de Louvre are what you need to visit in Paris!; " visible="false">
+                    <a-animation attribute="position" to="0 2.2 -4" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+            </a-entity>
+            <a-entity id="indonesiaText" position="0 2 -4" geometry="primitive: plane; width: auto; height: auto" material="color: #eee" text="width: 6; color: blue; align: center; value: Indonesia is an up and coming tropical destination for tourists all over the world. From beautiful beaches to cheap street food, this destination is not one to forget. The Villas Tejakula is the top hotels in the country and prices start at $130 a night. Sit down meals can cost an average of $5. When in Indonesia, be sure to go to the Waterbom Bali(water park), visit Borobudur Temples, and see the Sacred Monkey Forest Sanctuary.; " visible="false">
+                    <a-animation attribute="position" to="0 2.2 -4" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+            </a-entity>
+            <a-entity id="columbiaText" position="0 2 -4" geometry="primitive: plane; width: auto; height: auto" material="color: #eee" text="width: 6; color: blue; align: center; value: Columbia is a exotic country in South America. When staying here you want to stay at the JW Marriott Hotel Bogota whic averages at $400 a night. Looking for amazing local Columbian food? La Puerta Falsa is the place to eat. With cheap and authintic food. Want things to do? Visit the local Museo Botero del Banco de la Republica.; " visible="false">
+                    <a-animation attribute="position" to="0 2.2 -4" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+            </a-entity>
+            <!--<a-entity id="russiaText" position="7 5 -7" geometry="primitive: plane; width: 3; height: 1.5" material="color: #eee" text="width: 8; color: blue; align: center; value: go back; " visible="false"></a-entity>-->
+            <a-entity id="japanText" position="0 2 -4" geometry="primitive: plane; width: auto; height: auto" material="color: #eee" text="width: 6; color: blue; align: center; value: Kon'nichiwa! Welcome to Tokyo be sure to get rid of that jet lag at the Palace Hotel Tokyo. Want the freshest catch? That would be Ise Sueyoshi. Things to do include visiting Shinjuku Gyoen National Park, Meiji Jingu Shrine, and Asakusa.; " visible="false">
+                    <a-animation attribute="position" to="0 2.2 -4" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+            </a-entity>
+            <a-entity id="fijiText" position="0 2 -4" geometry="primitive: plane; width: auto; height: auto" material="color: #eee" text="width: 6; color: blue; align: center; value: Fiji is another tropical destination that every beachgoer dreams about. Best hotel around is Likuliku Lagoon Resort which averages at $950 a night. Looking for the best fish on the island? Visit Wicked Walu Seafood Restaurant. Things to do in Fiji include Zip Fiji, laying out at Natadola beach, and visiting the Kula Wildlife Adventure Park.; " visible="false">
+                    <a-animation attribute="position" to="0 2.2 -4" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+            </a-entity>
+            <a-entity id="hawaiiText" position="0 2 -4" geometry="primitive: plane; width: auto; height: auto" material="color: #eee" text="width: 6; color: blue; align: center; value: Surfs up dude! Hawaii is the best for sun, surf, and food. The best hotel is Montage Kapaula Bay which averages at  $1,375 a night! Looking for fresh seafood, Japanese, and Hawaiian food? Stop in Alan Wong's Resturant. It will never disappoint. Hawaii is chalk full of historical American monuments such as USS Arizona Memorial, Pearl Harbor/WW2 Valor and Diamond Head State Monument.; " visible="false">
+                    <a-animation attribute="position" to="0 2.2 -4" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+            </a-entity>
+            <!--<a-entity id="icelandText" position="7 5 -7" geometry="primitive: plane; width: 3; height: 1.5" material="color: #eee" text="width: 8; color: blue; align: center; value: go back; " visible="false"></a-entity>-->
+            <a-entity id="egyptText" position="0 2 -4" geometry="primitive: plane; width: auto; height: auto" material="color: #eee" text="width: 6; color: blue; align: center; value: Walk like an eqyption all the way to Egypt. When you want a break from the sun and sand take a rest at Rixos Seagate Shram which averages at $225 a night. Classic Egyption food is well known at Al Khal Egyptian restaurant. When you are ready to hike around start with Keops Pyramid and Gizeh Plateau.; " visible="false">
+                    <a-animation attribute="position" to="0 2.2 -4" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+            </a-entity>
+            <!--<a-entity id="chicagoText" position="7 5 -7" geometry="primitive: plane; width: 3; height: 1.5" material="color: #eee" text="width: 8; color: blue; align: center; value: go back; " visible="false"></a-entity>-->
+                      
+            
+                 
+    </a-scene>
+    <script src="script.js"></script>
+</body>
+
+</html>
