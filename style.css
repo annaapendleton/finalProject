@@ -7,6 +7,21 @@
   
 }
 
+#group {
+	width: 60%;
+	transform: rotate(180deg);
+	margin-left: 130%;
+}
+
+#footer {
+	margin-top: 10%;
+}
+
+#copyright {
+	font-family: 'Karla', sans-serif;
+	letter-spacing: 5px;
+}
+
 /*html, body {*/
 /*	 margin: 0;*/
 /*    padding: 0;*/

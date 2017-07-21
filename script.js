@@ -6,7 +6,7 @@ function makeNewYork(){
     document.getElementById('paris').setAttribute("visible",false)
     document.getElementById('sydney').setAttribute("visible",false)
     document.getElementById('backButton').setAttribute("visible",true)
-    document.getElementById('backHomeButton').setAttribute("visible",false)
+      
     document.getElementById('newYorkTitle').setAttribute("visible",true)
     document.getElementById('parisTitle').setAttribute("visible",false)
     document.getElementById('sydneyTitle').setAttribute("visible",false)
@@ -24,12 +24,19 @@ function makeNewYork(){
     document.getElementById('sydneyText').setAttribute("visible",false)
     document.getElementById('parisText').setAttribute("visible",false)
     document.getElementById('indonesiaText').setAttribute("visible",false)
-    document.getElementById('plane').setAttribute("visible", false)
+      
     document.getElementById('fijiText').setAttribute("visible",false)
     document.getElementById('columbiaText').setAttribute("visible", false)
     document.getElementById('hawaiiText').setAttribute("visible", false)
     document.getElementById('japanText').setAttribute("visible", false)
     document.getElementById('egyptText').setAttribute("visible", false)
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandTitle').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
     
     
     
@@ -42,7 +49,7 @@ function makeSydney(){
     document.getElementById('paris').setAttribute("visible",false)
     document.getElementById('sydney').setAttribute("visible",false)
     document.getElementById('backButton').setAttribute("visible",true)
-    document.getElementById('backHomeButton').setAttribute("visible",false)
+      
     document.getElementById('trippyTitle').setAttribute("visible",false) 
     document.getElementById('newYorkTitle').setAttribute("visible",false)
     document.getElementById('parisTitle').setAttribute("visible",false)
@@ -60,13 +67,20 @@ function makeSydney(){
     document.getElementById('sydneyText').setAttribute("visible",true)
     document.getElementById('parisText').setAttribute("visible",false)
     document.getElementById('indonesiaText').setAttribute("visible",false)
-    document.getElementById('plane').setAttribute("visible", false)
+      
     document.getElementById('fijiText').setAttribute("visible",false)
     document.getElementById('columbiaText').setAttribute("visible", false)
     document.getElementById('columbiaText').setAttribute("visible", false)
     document.getElementById('hawaiiText').setAttribute("visible", false)
     document.getElementById('japanText').setAttribute("visible", false)
     document.getElementById('egyptText').setAttribute("visible", false)
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandTitle').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
     
 }
 function makeParis(){
@@ -77,7 +91,7 @@ function makeParis(){
     document.getElementById('paris').setAttribute("visible",false)
     document.getElementById('sydney').setAttribute("visible",false)
     document.getElementById('backButton').setAttribute("visible",true)
-    document.getElementById('backHomeButton').setAttribute("visible",false)
+      
     document.getElementById('newYorkTitle').setAttribute("visible",false)
     document.getElementById('parisTitle').setAttribute("visible",true)
     document.getElementById('sydneyTitle').setAttribute("visible",false)
@@ -95,12 +109,19 @@ function makeParis(){
     document.getElementById('sydneyText').setAttribute("visible",false)
     document.getElementById('parisText').setAttribute("visible",true)
     document.getElementById('indonesiaText').setAttribute("visible",false)
-    document.getElementById('plane').setAttribute("visible", false)
+      
     document.getElementById('fijiText').setAttribute("visible",false)
     document.getElementById('columbiaText').setAttribute("visible", false)
     document.getElementById('hawaiiText').setAttribute("visible", false)
     document.getElementById('japanText').setAttribute("visible", false)
     document.getElementById('egyptText').setAttribute("visible", false)
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandTitle').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
     
 }
 function makeColumbia(){
@@ -111,7 +132,7 @@ function makeColumbia(){
     document.getElementById('paris').setAttribute("visible",false)
     document.getElementById('sydney').setAttribute("visible",false)
     document.getElementById('backButton').setAttribute("visible",true)
-    document.getElementById('backHomeButton').setAttribute("visible",false)
+      
     document.getElementById('newYorkTitle').setAttribute("visible",false)
     document.getElementById('parisTitle').setAttribute("visible",false)
     document.getElementById('sydneyTitle').setAttribute("visible",false)
@@ -125,12 +146,19 @@ function makeColumbia(){
     document.getElementById('russiaTitle').setAttribute("visible",false) 
     document.getElementById('icelandTitle').setAttribute("visible",false)
     document.getElementById('chicagoTitle').setAttribute("visible",false)
-    document.getElementById('plane').setAttribute("visible", false)
+      
     document.getElementById('fijiText').setAttribute("visible",false)
     document.getElementById('columbiaText').setAttribute("visible", true)
     document.getElementById('hawaiiText').setAttribute("visible", false)
     document.getElementById('japanText').setAttribute("visible", false)
     document.getElementById('egyptText').setAttribute("visible", false)
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandTitle').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
     
     
 }
@@ -142,7 +170,7 @@ function makeIndonesia(){
     document.getElementById('paris').setAttribute("visible",false)
     document.getElementById('sydney').setAttribute("visible",false)
     document.getElementById('backButton').setAttribute("visible",true)
-    document.getElementById('backHomeButton').setAttribute("visible",false)
+      
     document.getElementById('newYorkTitle').setAttribute("visible",false)
     document.getElementById('parisTitle').setAttribute("visible",false)
     document.getElementById('sydneyTitle').setAttribute("visible",false)
@@ -160,12 +188,19 @@ function makeIndonesia(){
     document.getElementById('sydneyText').setAttribute("visible",false)
     document.getElementById('parisText').setAttribute("visible",false)
     document.getElementById('indonesiaText').setAttribute("visible",true)
-    document.getElementById('plane').setAttribute("visible", false)
+      
     document.getElementById('fijiText').setAttribute("visible",false)
     document.getElementById('columbiaText').setAttribute("visible", false)
     document.getElementById('hawaiiText').setAttribute("visible", false)
     document.getElementById('japanText').setAttribute("visible", false)
     document.getElementById('egyptText').setAttribute("visible", false)
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandTitle').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
     
 }
 function makeFiji(){
@@ -176,7 +211,7 @@ function makeFiji(){
     document.getElementById('paris').setAttribute("visible",false)
     document.getElementById('sydney').setAttribute("visible",false)
     document.getElementById('backButton').setAttribute("visible",true)
-    document.getElementById('backHomeButton').setAttribute("visible",false)
+      
     document.getElementById('newYorkTitle').setAttribute("visible",false)
     document.getElementById('parisTitle').setAttribute("visible",false)
     document.getElementById('sydneyTitle').setAttribute("visible",false)
@@ -190,12 +225,19 @@ function makeFiji(){
     document.getElementById('russiaTitle').setAttribute("visible",false) 
     document.getElementById('icelandTitle').setAttribute("visible",false)
     document.getElementById('chicagoTitle').setAttribute("visible",false)  
-    document.getElementById('plane').setAttribute("visible", false)
+      
     document.getElementById('fijiText').setAttribute("visible",true)
     document.getElementById('columbiaText').setAttribute("visible", false)
     document.getElementById('hawaiiText').setAttribute("visible", false)
     document.getElementById('japanText').setAttribute("visible", false)
     document.getElementById('egyptText').setAttribute("visible", false)
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandTitle').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
     
     
 }
@@ -208,7 +250,7 @@ function makeRussia(){
     document.getElementById('paris').setAttribute("visible",false)
     document.getElementById('sydney').setAttribute("visible",false)
     document.getElementById('backButton').setAttribute("visible",true)
-    document.getElementById('backHomeButton').setAttribute("visible",false)
+      
     document.getElementById('newYorkTitle').setAttribute("visible",false)
     document.getElementById('parisTitle').setAttribute("visible",false)
     document.getElementById('sydneyTitle').setAttribute("visible",false)
@@ -222,12 +264,19 @@ function makeRussia(){
     document.getElementById('russiaTitle').setAttribute("visible",true) 
     document.getElementById('icelandTitle').setAttribute("visible",false)
     document.getElementById('chicagoTitle').setAttribute("visible",false)  
-    document.getElementById('plane').setAttribute("visible", false)
+      
     document.getElementById('fijiText').setAttribute("visible",false)
     document.getElementById('columbiaText').setAttribute("visible", false)
     document.getElementById('hawaiiText').setAttribute("visible", false)
     document.getElementById('japanText').setAttribute("visible", false)
     document.getElementById('egyptText').setAttribute("visible", false)
+    document.getElementById('russiaText').setAttribute("visible", true)
+    document.getElementById('fantasylandTitle').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
     
     
 }
@@ -240,7 +289,7 @@ function makeJapan(){
     document.getElementById('paris').setAttribute("visible",false)
     document.getElementById('sydney').setAttribute("visible",false)
     document.getElementById('backButton').setAttribute("visible",true)
-    document.getElementById('backHomeButton').setAttribute("visible",false)
+      
     document.getElementById('newYorkTitle').setAttribute("visible",false)
     document.getElementById('parisTitle').setAttribute("visible",false)
     document.getElementById('sydneyTitle').setAttribute("visible",false)
@@ -254,12 +303,19 @@ function makeJapan(){
     document.getElementById('russiaTitle').setAttribute("visible",false) 
     document.getElementById('icelandTitle').setAttribute("visible",false)
     document.getElementById('chicagoTitle').setAttribute("visible",false)
-    document.getElementById('plane').setAttribute("visible", false)
+      
     document.getElementById('fijiText').setAttribute("visible",false)
     document.getElementById('columbiaText').setAttribute("visible", false)
     document.getElementById('hawaiiText').setAttribute("visible", false)
     document.getElementById('japanText').setAttribute("visible", true)
     document.getElementById('egyptText').setAttribute("visible", false)
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandTitle').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
     
     
 }
@@ -272,7 +328,7 @@ function makeEgypt(){
     document.getElementById('paris').setAttribute("visible",false)
     document.getElementById('sydney').setAttribute("visible",false)
     document.getElementById('backButton').setAttribute("visible",true)
-    document.getElementById('backHomeButton').setAttribute("visible",false)
+      
     document.getElementById('newYorkTitle').setAttribute("visible",false)
     document.getElementById('parisTitle').setAttribute("visible",false)
     document.getElementById('sydneyTitle').setAttribute("visible",false)
@@ -286,12 +342,19 @@ function makeEgypt(){
     document.getElementById('russiaTitle').setAttribute("visible",false) 
     document.getElementById('icelandTitle').setAttribute("visible",false)
     document.getElementById('chicagoTitle').setAttribute("visible",false) 
-    document.getElementById('plane').setAttribute("visible", false)
+      
     document.getElementById('fijiText').setAttribute("visible",false)
     document.getElementById('columbiaText').setAttribute("visible", false)
     document.getElementById('hawaiiText').setAttribute("visible", false)
     document.getElementById('japanText').setAttribute("visible", false)
     document.getElementById('egyptText').setAttribute("visible", true)
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandTitle').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
     
     
 }
@@ -305,7 +368,7 @@ function makeHawaii(){
     document.getElementById('paris').setAttribute("visible",false)
     document.getElementById('sydney').setAttribute("visible",false)
     document.getElementById('backButton').setAttribute("visible",true)
-    document.getElementById('backHomeButton').setAttribute("visible",false)
+      
     document.getElementById('newYorkTitle').setAttribute("visible",false)
     document.getElementById('parisTitle').setAttribute("visible",false)
     document.getElementById('sydneyTitle').setAttribute("visible",false)
@@ -319,13 +382,18 @@ function makeHawaii(){
     document.getElementById('russiaTitle').setAttribute("visible",false) 
     document.getElementById('icelandTitle').setAttribute("visible",false)
     document.getElementById('chicagoTitle').setAttribute("visible",false)  
-    document.getElementById('plane').setAttribute("visible", false)
+      
     document.getElementById('fijiText').setAttribute("visible",false)
     document.getElementById('columbiaText').setAttribute("visible", false)
     document.getElementById('hawaiiText').setAttribute("visible", true)
     document.getElementById('japanText').setAttribute("visible", false)
     document.getElementById('egyptText').setAttribute("visible", false)
-    
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
 }
 
 function makeIceland(){
@@ -336,7 +404,7 @@ function makeIceland(){
     document.getElementById('paris').setAttribute("visible",false)
     document.getElementById('sydney').setAttribute("visible",false)
     document.getElementById('backButton').setAttribute("visible",true)
-    document.getElementById('backHomeButton').setAttribute("visible",false)
+      
     document.getElementById('newYorkTitle').setAttribute("visible",false)
     document.getElementById('parisTitle').setAttribute("visible",false)
     document.getElementById('sydneyTitle').setAttribute("visible",false)
@@ -350,12 +418,19 @@ function makeIceland(){
     document.getElementById('russiaTitle').setAttribute("visible",false) 
     document.getElementById('icelandTitle').setAttribute("visible",true)
     document.getElementById('chicagoTitle').setAttribute("visible",false)
-    document.getElementById('plane').setAttribute("visible", false)
+      
     document.getElementById('fijiText').setAttribute("visible",false)
     document.getElementById('columbiaText').setAttribute("visible", false)
     document.getElementById('hawaiiText').setAttribute("visible", false)
     document.getElementById('japanText').setAttribute("visible", false)
     document.getElementById('egyptText').setAttribute("visible", false)
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandTitle').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
     
     
 }
@@ -368,7 +443,7 @@ function makeDisney(){
     document.getElementById('paris').setAttribute("visible",false)
     document.getElementById('sydney').setAttribute("visible",false)
     document.getElementById('backButton').setAttribute("visible",true)
-    document.getElementById('backHomeButton').setAttribute("visible",false)
+      
     document.getElementById('newYorkTitle').setAttribute("visible",false)
     document.getElementById('parisTitle').setAttribute("visible",false)
     document.getElementById('sydneyTitle').setAttribute("visible",false)
@@ -382,32 +457,149 @@ function makeDisney(){
     document.getElementById('russiaTitle').setAttribute("visible",false) 
     document.getElementById('icelandTitle').setAttribute("visible",false)
     document.getElementById('chicagoTitle').setAttribute("visible",true) 
-    document.getElementById('plane').setAttribute("visible", false)
+      
     document.getElementById('fijiText').setAttribute("visible",false)
     document.getElementById('columbiaText').setAttribute("visible", false)
     document.getElementById('hawaiiText').setAttribute("visible", false)
     document.getElementById('japanText').setAttribute("visible", false)
     document.getElementById('egyptText').setAttribute("visible", false)
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandTitle').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", true)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
     
     
 }
 
-function goBack(){
+function makeNorthernLights(){
     var background =document.getElementById('background')
-    background.setAttribute("src","#stars")
-    document.getElementById('earth').setAttribute("visible",true)
-    document.getElementById('newYork').setAttribute("visible",true)
-    document.getElementById('paris').setAttribute("visible",true)
-    document.getElementById('sydney').setAttribute("visible",true)
-    document.getElementById('backButton').setAttribute("visible",false)
-    document.getElementById('backHomeButton').setAttribute("visible",true)
+    background.setAttribute("src","#northernlights")
+    document.getElementById('earth').setAttribute("visible",false)
+    document.getElementById('newYork').setAttribute("visible",false)
+    document.getElementById('paris').setAttribute("visible",false)
+    document.getElementById('sydney').setAttribute("visible",false)
+    document.getElementById('backButton').setAttribute("visible",true)
+      
     document.getElementById('newYorkTitle').setAttribute("visible",false)
     document.getElementById('parisTitle').setAttribute("visible",false)
     document.getElementById('sydneyTitle').setAttribute("visible",false)
     document.getElementById('fijiTitle').setAttribute("visible",false)
     document.getElementById('indonesiaTitle').setAttribute("visible",false)
     document.getElementById('columbiaTitle').setAttribute("visible",false)
-    document.getElementById('trippyTitle').setAttribute("visible",true)  
+    document.getElementById('trippyTitle').setAttribute("visible",false)   
+    document.getElementById('hawaiiTitle').setAttribute("visible",false)
+    document.getElementById('egyptTitle').setAttribute("visible",false)
+    document.getElementById('japanTitle').setAttribute("visible",false)
+    document.getElementById('russiaTitle').setAttribute("visible",false) 
+    document.getElementById('icelandTitle').setAttribute("visible",true)
+    document.getElementById('chicagoTitle').setAttribute("visible",false) 
+      
+    document.getElementById('fijiText').setAttribute("visible",false)
+    document.getElementById('columbiaText').setAttribute("visible", false)
+    document.getElementById('hawaiiText').setAttribute("visible", false)
+    document.getElementById('japanText').setAttribute("visible", false)
+    document.getElementById('egyptText').setAttribute("visible", false)
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandTitle').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", true)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
+    
+    
+}
+
+function makeFantasyland(){
+    var background =document.getElementById('background')
+    background.setAttribute("src","#fantasyland")
+    document.getElementById('earth').setAttribute("visible",false)
+    document.getElementById('newYork').setAttribute("visible",false)
+    document.getElementById('paris').setAttribute("visible",false)
+    document.getElementById('sydney').setAttribute("visible",false)
+    document.getElementById('backButton').setAttribute("visible",true)
+      
+    document.getElementById('newYorkTitle').setAttribute("visible",false)
+    document.getElementById('parisTitle').setAttribute("visible",false)
+    document.getElementById('sydneyTitle').setAttribute("visible",false)
+    document.getElementById('fijiTitle').setAttribute("visible",false)
+    document.getElementById('indonesiaTitle').setAttribute("visible",false)
+    document.getElementById('columbiaTitle').setAttribute("visible",false)
+    document.getElementById('trippyTitle').setAttribute("visible",false)   
+    document.getElementById('hawaiiTitle').setAttribute("visible",false)
+    document.getElementById('egyptTitle').setAttribute("visible",false)
+    document.getElementById('japanTitle').setAttribute("visible",false)
+    document.getElementById('russiaTitle').setAttribute("visible",false) 
+    document.getElementById('icelandTitle').setAttribute("visible",false)
+    document.getElementById('chicagoTitle').setAttribute("visible",false) 
+      
+    document.getElementById('fijiText').setAttribute("visible",false)
+    document.getElementById('columbiaText').setAttribute("visible", false)
+    document.getElementById('hawaiiText').setAttribute("visible", false)
+    document.getElementById('japanText').setAttribute("visible", false)
+    document.getElementById('egyptText').setAttribute("visible", false)
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandTitle').setAttribute("visible", true)
+    document.getElementById('fantasylandText').setAttribute("visible", true)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
+    
+    
+}
+
+function makeIndia(){
+    var background =document.getElementById('background')
+    background.setAttribute("src","#india")
+    document.getElementById('earth').setAttribute("visible",false)
+    document.getElementById('newYork').setAttribute("visible",false)
+    document.getElementById('paris').setAttribute("visible",false)
+    document.getElementById('sydney').setAttribute("visible",false)
+    document.getElementById('backButton').setAttribute("visible",true)
+      
+    document.getElementById('newYorkTitle').setAttribute("visible",false)
+    document.getElementById('parisTitle').setAttribute("visible",false)
+    document.getElementById('sydneyTitle').setAttribute("visible",false)
+    document.getElementById('fijiTitle').setAttribute("visible",false)
+    document.getElementById('indonesiaTitle').setAttribute("visible",false)
+    document.getElementById('columbiaTitle').setAttribute("visible",false)
+    document.getElementById('trippyTitle').setAttribute("visible",false)   
+    document.getElementById('hawaiiTitle').setAttribute("visible",false)
+    document.getElementById('egyptTitle').setAttribute("visible",false)
+    document.getElementById('japanTitle').setAttribute("visible",false)
+    document.getElementById('russiaTitle').setAttribute("visible",false) 
+    document.getElementById('icelandTitle').setAttribute("visible",false)
+    document.getElementById('chicagoTitle').setAttribute("visible",false) 
+    document.getElementById('indiaTitle').setAttribute("visible", true)
+      
+    document.getElementById('fijiText').setAttribute("visible",false)
+    document.getElementById('columbiaText').setAttribute("visible", false)
+    document.getElementById('hawaiiText').setAttribute("visible", false)
+    document.getElementById('japanText').setAttribute("visible", false)
+    document.getElementById('egyptText').setAttribute("visible", false)
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandTitle').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    document.getElementById('indiaTitle').setAttribute("visible", true)
+    document.getElementById('indiaText').setAttribute("visible", true)
+    
+    
+}
+
+function goBack(){
+     document.getElementById('newYorkTitle').setAttribute("visible",false)
+    document.getElementById('parisTitle').setAttribute("visible",false)
+    document.getElementById('sydneyTitle').setAttribute("visible",false)
+    document.getElementById('fijiTitle').setAttribute("visible",false)
+    document.getElementById('indonesiaTitle').setAttribute("visible",false)
+    document.getElementById('columbiaTitle').setAttribute("visible",false)
+    document.getElementById('backButton').setAttribute("visible",false)
     document.getElementById('chicagoTitle').setAttribute("visible",false)
     document.getElementById('icelandTitle').setAttribute("visible",false)
     document.getElementById('hawaiiTitle').setAttribute("visible",false)
@@ -418,10 +610,25 @@ function goBack(){
     document.getElementById('sydneyText').setAttribute("visible",false)
     document.getElementById('parisText').setAttribute("visible",false)
     document.getElementById('indonesiaText').setAttribute("visible",false)
-    document.getElementById('plane').setAttribute("visible", true)
     document.getElementById('fijiText').setAttribute("visible",false)
     document.getElementById('columbiaText').setAttribute("visible", false)
     document.getElementById('hawaiiText').setAttribute("visible", false)
     document.getElementById('japanText').setAttribute("visible", false)
     document.getElementById('egyptText').setAttribute("visible", false)
+    document.getElementById('russiaText').setAttribute("visible", false)
+    document.getElementById('fantasylandText').setAttribute("visible", false)
+    document.getElementById('northernlightsText').setAttribute("visible", false)
+    document.getElementById('disneyText').setAttribute("visible", false)
+    var background =document.getElementById('background')
+    background.setAttribute("src","#stars")
+    document.getElementById('earth').setAttribute("visible",true)
+    document.getElementById('newYork').setAttribute("visible",true)
+    document.getElementById('paris').setAttribute("visible",true)
+    document.getElementById('sydney').setAttribute("visible",true)
+    document.getElementById('fantasylandTitle').setAttribute("visible", false)
+    document.getElementById('trippyTitle').setAttribute("visible",true)  
+    //document.getElementById('plane').setAttribute("visible", true)
+    document.getElementById('indiaTitle').setAttribute("visible", false)
+    document.getElementById('indiaText').setAttribute("visible", false)
+    
 }
